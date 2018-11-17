@@ -10,13 +10,6 @@ def fizzbuzz_convert(number):
 
         return str(number)
 
-result = fizzbuzz_convert(1)
-print(result)  # 1
 
-fizzbuzz_convert(2)
-fizzbuzz_convert(3)
-fizzbuzz_convert(4)
-fizzbuzz_convert(5)
-fizzbuzz_convert(6)
-fizzbuzz_convert(15)
-fizzbuzz_convert(100)
+for number in range(1, 101):
+    print(fizzbuzz_convert(number))
