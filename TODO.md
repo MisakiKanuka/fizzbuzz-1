@@ -13,3 +13,4 @@ TODO
 - [x] FizzBuzzのパターン: 3と5の公倍数
     - [x] 15 -> "FizzBuzz"
     - [x] 30 -> "FizzBuzz"
+- [] 
