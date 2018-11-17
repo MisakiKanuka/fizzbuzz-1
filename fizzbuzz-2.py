@@ -1,15 +1,17 @@
 def fizzbuzz_convert(number):
     if number % 15 == 0:
-        print("FizzBuzz")
+        return "FizzBuzz"
     elif number % 3 == 0:
-        print("Fizz")
+        return "Fizz"
     elif number % 5 == 0:
-        print("Buzz")
+        return "Buzz"
     else:
-        print(str(number))
+        return str(number)
 
 
-fizzbuzz_convert(1)
+result = fizzbuzz_convert(1)
+print(result)  # 1
+
 fizzbuzz_convert(2)
 fizzbuzz_convert(3)
 fizzbuzz_convert(4)
